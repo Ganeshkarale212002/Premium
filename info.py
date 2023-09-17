@@ -42,8 +42,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Premium:212002@premium.90drthe.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "premium")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'premium')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Premium")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Premium')
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in')
